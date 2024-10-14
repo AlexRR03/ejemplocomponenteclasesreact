@@ -7,11 +7,12 @@ import Contador from './components/Contador';
 import DibujosComplejos from './components/DibujosComplejos';
 import DibujoComplejosReact from './components/DibujoComplejosReact';
 import PadreDeportes from './components/PadreDeportes';
+import PadreNumeros from './components/PadreNumeros';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <PadreDeportes/>
+    <PadreNumeros />
   </React.StrictMode>
 );
 
