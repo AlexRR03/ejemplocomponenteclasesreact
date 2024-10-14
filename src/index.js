@@ -6,11 +6,12 @@ import reportWebVitals from './reportWebVitals';
 import Contador from './components/Contador';
 import DibujosComplejos from './components/DibujosComplejos';
 import DibujoComplejosReact from './components/DibujoComplejosReact';
+import PadreDeportes from './components/PadreDeportes';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <DibujoComplejosReact/>
+    <PadreDeportes/>
   </React.StrictMode>
 );
 
