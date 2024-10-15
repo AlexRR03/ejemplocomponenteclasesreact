@@ -7,7 +7,8 @@ class PadreNumeros extends Component{
     }
     
     insertarNumAleatorio =()=>{
-        this.state.listaNum.push(parseInt(Math.random()*50)+1)
+        let numAleatorio = parseInt(Math.random()*50)+1;
+        this.state.listaNum.push(numAleatorio)
         this.setState({
             listaNum : this.state.listaNum
         })
